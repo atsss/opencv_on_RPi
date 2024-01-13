@@ -39,7 +39,7 @@ def detectAndDisplay(frame):
     cv.imshow('Capture - Face detection', frame)
 
 picam2 = Picamera2()
-picam2.preview_configuration.main.size = (1280,720)
+picam2.preview_configuration.main.size = (800,800)
 picam2.preview_configuration.main.format = "RGB888"
 picam2.preview_configuration.align()
 picam2.configure("preview")
