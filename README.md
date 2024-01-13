@@ -12,3 +12,15 @@
 > https://docs.opencv.org/4.5.1/d2/de6/tutorial_py_setup_in_ubuntu.html
 - Picamera2 official document
 > https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf
+
+## How to install
+1. Clone this repository and move the directory
+2. Install OpenCV and Picamera2
+```
+chmod +x installer.sh
+bash installer.sh
+```
+3. Test
+```
+cd scripts && python test_picamera.py
+```
