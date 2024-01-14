@@ -24,3 +24,7 @@ bash installer.sh
 ```
 cd scripts && python test_picamera.py
 ```
+
+## Pretrained models
+- Install from OpenCV
+> https://github.com/opencv/opencv/tree/5.x/data/haarcascades
